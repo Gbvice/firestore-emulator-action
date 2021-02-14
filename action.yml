@@ -1,0 +1,10 @@
+name: Firestore Emulator gcloud latest
+author: gbvice
+description: Firestore emulator
+inputs:
+  port:
+    description: "Host port for emulator"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
